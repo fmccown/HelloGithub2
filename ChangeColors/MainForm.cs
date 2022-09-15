@@ -22,6 +22,7 @@ namespace ChangeColors
 
         private void colorButton_Click(object sender, EventArgs e)
         {
+            // Comment
             if (colorsForm == null || colorsForm.IsDisposed)
             {
                 colorsForm = new ColorsForm();
